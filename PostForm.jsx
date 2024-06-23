@@ -134,7 +134,7 @@ const PostForm = ({post}) => {
         type='submit'
         bgColor={post ? "bg-green-500" : undefined}
         className='w-full'
-        {post? "Update": "Submit"}
+        {post ? "Update": "Submit"}
       ></Button>
     </div>
    </form>
